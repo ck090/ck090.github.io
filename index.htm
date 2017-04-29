@@ -15,14 +15,16 @@
   <hr>
   <pre id="reqObject"></pre>
   
-  <center><img id="apod_img_id" width="700px"/></center>
+  <center><img id="apod_img_id"/></center>
   
   <iframe id="apod_vid_id" type="text/html" width="640" height="385" frameborder="0"></iframe>
+  <button><a id="a_tag_id" download="apod.jpeg">Download the Image</a></button>
   <p id="copyright"></p>
   
   <h3 id="apod_title"></h3>
   <p id="apod_explaination"></p>
   <br/>
+
 </body>
 <script type="text/javascript">
 	var url = "https://api.nasa.gov/planetary/apod?api_key=NNKOjkoul8n1CH18TWA9gwngW1s1SmjESPjNoUFo";
@@ -49,6 +51,7 @@ $.ajax({
   $("#returnObject").text(JSON.stringify(result, null, 4));  
   $("#apod_explaination").text(result.explanation);
   $("#apod_title").text(result.title);
+  $("#a_tag_id").attr('href',result.hdurl);
 }
 });
 </script>
