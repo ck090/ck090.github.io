@@ -2,7 +2,10 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <title>APOD call</title>
   <style type="text/css">
   	img{
@@ -13,12 +16,15 @@
 <body>
   <h3><b><center>IMAGE OF THE DAY<center></b></h3>
   <hr>
-  <pre id="reqObject"></pre>
   
   <center><img id="apod_img_id"/></center>
   
   <iframe id="apod_vid_id" type="text/html" width="640" height="385" frameborder="0"></iframe>
-  <center><button><a id="a_tag_id" download="apod.jpeg">Download the Image</a></button></center>
+  <br>
+  <div class="container">
+  	<center><button type="button" class="btn btn-primary"><a id="a_tag_id" download="apod.jpeg" style="color: white">Download the Image</a></button></center>
+  </div>
+
   <p id="copyright"></p>
   
   <h3 id="apod_title"></h3>
