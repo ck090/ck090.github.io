@@ -308,7 +308,7 @@ section#timeline {
   width: 80%;
   margin: 20px auto;
   position: relative;
-  font-family: 'Nunito';
+  font-family: 'Anonymous Pro';
 }
 section#timeline:before {
   content: '';
@@ -428,5 +428,17 @@ section#timeline article:nth-child(5) div.inner h2 {
   background: #3c6360;
 }
 section#timeline article:nth-child(5) div.inner h2:after {
+  background: #3c6360;
+}
+section#timeline article:nth-child(6) div.inner h2 {
+  background: #3c6360;
+}
+section#timeline article:nth-child(6) div.inner h2:after {
+  background: #3c6360;
+}
+section#timeline article:nth-child(7) div.inner h2 {
+  background: #3c6360;
+}
+section#timeline article:nth-child(7) div.inner h2:after {
   background: #3c6360;
 }
