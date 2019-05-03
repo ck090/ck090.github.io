@@ -19,12 +19,8 @@
     "license": "MIT",
     "author": "Start Bootstrap",
     "contributors": [
-        "David Miller (http://davidmiller.io/)"
+        "Chandra Kanth"
     ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-grayscale.git"
-    },
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.3.1",
         "bootstrap": "4.1.3",
