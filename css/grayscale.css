@@ -28,7 +28,7 @@ a:hover {
 }
 
 h2 {
-  white-space: nowrap; /* Keeps the content on a single line */
+  white-space: initial; /* Keeps the content on a single line */
 }
 
 span {
