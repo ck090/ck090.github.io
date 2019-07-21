@@ -26,3 +26,18 @@ a {
 a:hover {
   color: rgb(9, 145, 223);
 }
+
+h2 {
+  white-space: nowrap; /* Keeps the content on a single line */
+}
+
+span {
+  border-right: .35em solid rgb(0, 226, 68);
+  animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
