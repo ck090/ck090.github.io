@@ -1,43 +1,44 @@
 body {
-  padding: 1em;
-  font-family: 'Share Tech Mono', monospace;
-  font-size: 150%;
-  background-color: black;
-  color: white;
-  text-align: center;
+    padding: 1em;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 150%;
+    background-color: black;
+    color: white;
+    text-align: center;
 }
 
 div {
-  position:absolute;
-  color:#fff;
-  top:50%;
-  left:50%;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 a {
-  text-decoration: none;
-  color: gray;
-  margin-right: 6px;
+    text-decoration: none;
+    color: gray;
+    margin-right: 6px;
 }
 
 a:hover {
-  color: rgb(9, 145, 223);
+    color: rgb(9, 145, 223);
 }
 
 h2 {
-  white-space: initial; /* Keeps the content on a single line */
+    white-space: initial;
+    /* Keeps the content on a single line */
 }
 
 span {
-  border-right: .35em solid rgb(0, 226, 68);
-  animation: caret 1s steps(1) infinite;
+    border-right: .35em solid rgb(0, 226, 68);
+    animation: caret 1s steps(1) infinite;
 }
 
 @keyframes caret {
-  50% {
-    border-color: transparent;
-  }
+    50% {
+        border-color: transparent;
+    }
 }
