@@ -1,3 +1,7 @@
+html {
+    cursor: grab;
+}
+
 body {
     padding: 1em;
     font-family: 'Karla', monospace;
@@ -5,6 +9,12 @@ body {
     background-color: rgb(0, 43, 40);
     color: rgb(192, 192, 192);
     text-align: center;
+}
+
+.profileImg {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 5rem;
 }
 
 div {
