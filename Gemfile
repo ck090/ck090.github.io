@@ -16,6 +16,9 @@ group :jekyll_plugins do
     gem 'jemoji'
     gem 'mini_racer'
     gem 'unicode_utils'
+    gem 'jekyll-pdf-embed'
+    gem 'jekyll-include-cache'
+    gem 'jekyll-target-blank'
     gem 'webrick'
 end
 group :other_plugins do

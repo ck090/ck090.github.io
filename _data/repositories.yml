@@ -1,12 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - ck090
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - ck090/FaceRecognition-DNN
+  - ck090/tensorflowregression
+  - ck090/Google_Quick_Draw
+  - ck090/BirdCLEF-22
+  - ck090/Identifying-Missing-Component-in-the-Bechdel-Test-Using-PCA
