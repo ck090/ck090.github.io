@@ -21,7 +21,7 @@ My research interests span the areas of `Computer Vision and Deep Learning`. I a
 
 Currently, I am working at the <a href="https://home.cs.colorado.edu/~DrG/IVC_Group.html">Image and Video Computing Group</a> as a graduate research student under the supervision of <a href="https://home.cs.colorado.edu/~DrG/AboutMe.html">Dr. Danna Gurari</a>, with a focus in the area of `Salient Object Detection`.
 
-Prior to my master’s, I worked close to 3.5 years in the industry, where I developed products in the domain of computer vision and reinforcement learning. I recieved my undergraduate degree in Computer Science from <a href="https://www.rvce.edu.in/">RV College of Engineering, Bangalore</a>.
+Prior to my master’s, I worked close to 4 years in the industry, where I developed products in the domain of computer vision and reinforcement learning. I recieved my undergraduate degree in Computer Science from <a href="https://www.rvce.edu.in/">RV College of Engineering, Bangalore</a>.
 
 In my spare time, I love to work on fun side projects, watch, play and analyse soccer! I am originally from <a href="https://www.britannica.com/place/Bangalore-India">Bengaluru, Karnataka, India</a>, currently living in <a href="https://bouldercolorado.gov/">Boulder, Colorado, USA</a>.
 
