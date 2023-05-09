@@ -11,7 +11,7 @@ nav_order: 5
 
 ---
 
-* Was awarded the `Best Gradute Part Time Instructor (2022-2023)` by the Comp-Sci Department and Graduate School.
+* Awarded the `Best Gradute Part Time Instructor (2022-2023)` by the Comp-Sci Department and Graduate School.
 
 * Was also recognized as the `Best Performing TA (2021-2022)`.
 
