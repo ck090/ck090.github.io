@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <strong>Comp Sci Grad Student</strong> @ <a href="https://www.colorado.edu/cs/">University of Colorado Boulder</a> <br> <strong>Previously:</strong> Sr. Data Scientist @ <a href="https://www.makemytrip.com/">MakeMyTrip.com</a> · Data Scientist @ <a href="https://www.ge.com/">General Electric Digital</a>
+subtitle: <strong>Comp-Sci Grad Student</strong> @ <a href="https://www.colorado.edu/cs/">University of Colorado Boulder</a> <br> <code> CS Endowed Founder's Fellowship Winner (2022-2023) <br> </code> <strong>Previously:</strong> Sr. Data Scientist @ <a href="https://www.makemytrip.com/">MakeMyTrip.com</a> · Data Scientist @ <a href="https://www.ge.com/">General Electric Digital</a>
 
 profile:
   align: right

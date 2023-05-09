@@ -7,7 +7,40 @@ nav: true
 nav_order: 5
 ---
 
-<h3 class="mt-4">University of Colorado Boulder</h3>
+## University of Colorado Boulder
+
+---
+
+* Was awarded the `Best Gradute Part Time Instructor (2022-2023)` by the Comp-Sci Department and Graduate School.
+
+* Was also recognized as the `Best Performing TA (2021-2022)`.
+
+
+<div class="card mt-3">
+  <div class="p-3">
+    <div class="row">
+      <div class="col-sm-10">
+        <h5 class="card-title"><a href="https://www.colorado.edu/cs/cspb-3104-algorithms" target="_blank" rel="noopener noreferrer">CSCI-3104: Algorithms</a></h5>
+        <h6 class="card-subtitle font-italic">Spring 2023: Graduate Part Time Instructor</h6>
+      </div>
+    </div>
+    <div class="p-3">
+        <ul class="card-text font-weight-light list-group list-group-flush ul-class">
+        <li class="list-group-item">
+            <div class="row">
+            <div class="col-sm-9">
+                145 undergraduate students, taught along with <a href="https://www.colorado.edu/biofrontiers/ryan-layer"> Prof. Ryan Layer </a>
+            </div>
+            <!-- <div class="col-sm-3">
+                <a href="https://www.cs.cmu.edu/~epxing/Class/10708-20/lectures/lecture19-RL1.pdf" target="_blank" rel="noopener noreferrer">slides</a>&nbsp;
+                <a href="https://www.cs.cmu.edu/~epxing/Class/10708-20/scribe/lec19_scribe.pdf" target="_blank" rel="noopener noreferrer">notes</a>&nbsp;
+            </div> -->
+            </div>
+        </li>
+        </ul>
+    </div>
+  </div>
+</div>
 
 <div class="card mt-3">
   <div class="p-3">
@@ -51,7 +84,7 @@ nav_order: 5
                 Recitations;  Group of 40 students
             </div>
             <div class="col-sm-3">
-                <a href="https://drive.google.com/drive/folders/166g_npIoCGudQAldWwMIeKmeGsL_FBJ_" target="_blank" rel="noopener noreferrer">handwritten notes and slides</a>&nbsp;
+                <a href="https://drive.google.com/drive/folders/166g_npIoCGudQAldWwMIeKmeGsL_FBJ_" target="_blank" rel="noopener noreferrer">notes and slides</a>&nbsp;
             </div>
             </div>
         </li>
@@ -76,7 +109,7 @@ nav_order: 5
                 Recitations;  Group of 40 students
             </div>
             <div class="col-sm-3">
-                <a href="https://drive.google.com/drive/folders/1urjjJvbnwg9xluFHHZQfeC7h1LXnc85R" target="_blank" rel="noopener noreferrer">handwritten notes and slides</a>&nbsp;
+                <a href="https://drive.google.com/drive/folders/1urjjJvbnwg9xluFHHZQfeC7h1LXnc85R" target="_blank" rel="noopener noreferrer">notes and slides</a>&nbsp;
             </div>
             </div>
         </li>
@@ -84,3 +117,7 @@ nav_order: 5
     </div>
   </div>
 </div>
+
+---
+
+* (upcoming... A Comphrensive Guide for Algorithms)

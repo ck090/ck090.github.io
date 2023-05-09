@@ -30,8 +30,19 @@ Below is my ever increasing collection of items, that I would like to share with
         {% include figure.html path="assets/img/images/flatirons.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
+<div class="row mt-3" id="photos">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/images/arches.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/images/horseshoe.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/images/zion.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
 <div class="caption">
-    A collection of pictures that I took from my recent outings. On the left, Mt. Rainier, Seattle, WA. Middle, Mt. Sanitas, Boulder, CO. Right, Flatirons, Boulder, CO
+    A collection of pictures that I took from my recent outings. First row LtoR: Mt. Rainier, Seattle. Mt. Sanitas, Boulder, CO. Flatirons, Boulder, CO. Second row LtoR: Arches NP, Moab, UT. Horseshoe Bend, Page, AZ. Zion NP, Orderville, UT.
 </div>
 
 <hr>

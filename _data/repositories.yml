@@ -5,5 +5,6 @@ github_repos:
   - ck090/FaceRecognition-DNN
   - ck090/tensorflowregression
   - ck090/Google_Quick_Draw
+  - ck090/ocaml-nn
   - ck090/BirdCLEF-22
   - ck090/Identifying-Missing-Component-in-the-Bechdel-Test-Using-PCA
