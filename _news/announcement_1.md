@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2023-08-01 15:59:00-0400
 inline: true
 ---
 
-A simple inline announcement.
+Our paper "Salient Object Detection for Images Taken by People With Vision Impairments" has been accepted to Winter Conference on Applications of Computer Vision (WACV) 2024

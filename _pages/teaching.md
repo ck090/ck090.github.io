@@ -15,6 +15,31 @@ nav_order: 5
 
 * Was also recognized as the `Best Performing TA (2021-2022)`.
 
+<div class="card mt-3">
+  <div class="p-3">
+    <div class="row">
+      <div class="col-sm-10">
+        <h5 class="card-title"><a href="https://www.colorado.edu/cs/cspb-3104-algorithms" target="_blank" rel="noopener noreferrer">CSCI-3104: Algorithms</a></h5>
+        <h6 class="card-subtitle font-italic">Fall 2023: Graduate Part Time Instructor</h6>
+      </div>
+    </div>
+    <div class="p-3">
+        <ul class="card-text font-weight-light list-group list-group-flush ul-class">
+        <li class="list-group-item">
+            <div class="row">
+            <div class="col-sm-9">
+                240 undergraduate students
+            </div>
+            <!-- <div class="col-sm-3">
+                <a href="https://www.cs.cmu.edu/~epxing/Class/10708-20/lectures/lecture19-RL1.pdf" target="_blank" rel="noopener noreferrer">slides</a>&nbsp;
+                <a href="https://www.cs.cmu.edu/~epxing/Class/10708-20/scribe/lec19_scribe.pdf" target="_blank" rel="noopener noreferrer">notes</a>&nbsp;
+            </div> -->
+            </div>
+        </li>
+        </ul>
+    </div>
+  </div>
+</div>
 
 <div class="card mt-3">
   <div class="p-3">
@@ -29,7 +54,7 @@ nav_order: 5
         <li class="list-group-item">
             <div class="row">
             <div class="col-sm-9">
-                145 undergraduate students, taught along with <a href="https://www.colorado.edu/biofrontiers/ryan-layer"> Prof. Ryan Layer </a>
+                145 undergraduate students, taught along with <a href="https://www.colorado.edu/biofrontiers/ryan-layer"> Dr. Ryan Layer </a>
             </div>
             <!-- <div class="col-sm-3">
                 <a href="https://www.cs.cmu.edu/~epxing/Class/10708-20/lectures/lecture19-RL1.pdf" target="_blank" rel="noopener noreferrer">slides</a>&nbsp;
@@ -55,7 +80,7 @@ nav_order: 5
         <li class="list-group-item">
             <div class="row">
             <div class="col-sm-9">
-                140 undergraduate students, taught along with <a href="https://home.cs.colorado.edu/~jgrochow/index.html"> Prof. Joshua Grochow </a>
+                140 undergraduate students, taught along with <a href="https://home.cs.colorado.edu/~jgrochow/index.html"> Dr. Joshua Grochow </a>
             </div>
             <!-- <div class="col-sm-3">
                 <a href="https://www.cs.cmu.edu/~epxing/Class/10708-20/lectures/lecture19-RL1.pdf" target="_blank" rel="noopener noreferrer">slides</a>&nbsp;
