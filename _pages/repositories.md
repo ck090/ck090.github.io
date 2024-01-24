@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: All my project repositories that are public are here.
+description: I strive to open-source all research I conduct to ensure reproducibility
 nav: true
 nav_order: 3
 ---
