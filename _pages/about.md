@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <strong>Comp-Sci Doctoral Student</strong> @ <a href="https://www.colorado.edu/cs/">University of Colorado Boulder</a> <br> <code> CS Endowed Founder's Fellowship (2022-2023) </code> <br> <strong>Previously:</strong> Applied Science Intern @ <a href="https://www.amazon.science/"> Amazon Science</a> | Sr. Data Scientist @ <a href="https://www.makemytrip.com/">MakeMyTrip.com</a> | Data Scientist @ <a href="https://www.ge.com/">General Electric Digital</a>
+subtitle: <strong>Comp-Sci Doctoral Student</strong> @ <a href="https://www.colorado.edu/cs/">University of Colorado Boulder</a> <br> <code> CS Endowed Founder's Fellowship (2022-2023) Bell Family Endowed CS Fellowship (2023-2024) </code> <br> <strong>Previously:</strong> Applied Science Intern @ <a href="https://www.amazon.science/"> Amazon Science</a> | Sr. Data Scientist @ <a href="https://www.makemytrip.com/">MakeMyTrip.com</a>
 
 profile:
   align: right
