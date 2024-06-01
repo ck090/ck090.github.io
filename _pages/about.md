@@ -28,3 +28,5 @@ During my Master's thesis, I worked on developing a dataset and benchmarking cur
 Prior to my master’s, I worked close to 4 years in the industry, where I developed products in the domain of computer vision and reinforcement learning. I recieved my undergraduate degree in Computer Science from <a href="https://www.rvce.edu.in/">RV College of Engineering, Bangalore</a>.
 
 In my spare time, I love to work on fun side projects, hike, and play soccer! I am originally from <a href="https://www.britannica.com/place/Bangalore-India">Bengaluru, Karnataka, India</a>, currently living in <a href="https://bouldercolorado.gov/">Boulder, Colorado, USA</a>.
+
+Checkout my PhD geneology tree <a href="https://ck090.github.io/gene">here</a>.
