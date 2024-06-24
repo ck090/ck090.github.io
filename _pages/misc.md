@@ -13,7 +13,7 @@ Below is my ever increasing collection of items, that I would like to share with
 
 <ul class="no-toc" id="markdown_toc">
     <li><a href="#photos" id="some-photos">Some photos</a></li>
-    <li><a href="#latex" id="latex-guide">LaTeX</a></li>
+    <!-- <li><a href="#latex" id="latex-guide">LaTeX</a></li> -->
 </ul>
 
 <hr>
@@ -41,13 +41,24 @@ Below is my ever increasing collection of items, that I would like to share with
         {% include figure.html path="assets/img/images/zion.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
+<div class="row mt-3" id="photos">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/images/aurora.JPG" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/images/mtouray.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/images/stanford.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
 <div class="caption">
-    A collection of pictures that I took from my recent outings. First row LtoR: Mt. Rainier, Seattle. Mt. Sanitas, Boulder, CO. Flatirons, Boulder, CO. Second row LtoR: Arches NP, Moab, UT. Horseshoe Bend, Page, AZ. Zion NP, Orderville, UT.
+    A collection of pictures that I took from my recent outings. First row LtoR: Mt. Rainier, Pierce County, WA. Mt. Sanitas, Boulder, CO. Flatirons, Boulder, CO. Second row LtoR: Arches NP, Moab, UT. Horseshoe Bend, Page, AZ. Zion NP, Orderville, UT. Third row LtoR: Aurora Borealis, Boulder, CO. Mt. Ouray, Monarch Pass, CO. Stanford Memorial Church, Stanford, CA
 </div>
 
 <hr>
-
+<!-- 
 <h2 id="latex"> LaTeX </h2>
 <ul class="no-toc" id="markdown_toc">
     <li><a href="https://math.uoregon.edu/wp-content/uploads/2014/12/compsymb-1qyb3zd.pdf">A comprehensive LaTeX symbol list</a></li>
-</ul>
+</ul> -->

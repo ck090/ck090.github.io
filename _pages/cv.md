@@ -6,4 +6,4 @@ nav: true
 nav_order: 1
 ---
 
-{% pdf "/assets/pdf/ChandraKanth_Nagesh_CV.pdf" no_link width=100% height=800px %}
+{% pdf "/assets/pdf/cv_7.pdf" no_link width=100% height=800px %}
