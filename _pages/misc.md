@@ -43,17 +43,28 @@ Below is my ever increasing collection of items, that I would like to share with
 </div>
 <div class="row mt-3" id="photos">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/images/aurora.JPG" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/images/aurora.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/images/mtouray.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/images/mesaverde.JPG" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="row mt-3" id="photos">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/images/greatsanddunes.JPG" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/images/goldengate.JPG" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/images/stanford.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
-    A collection of pictures that I took from my recent outings. First row LtoR: Mt. Rainier, Pierce County, WA. Mt. Sanitas, Boulder, CO. Flatirons, Boulder, CO. Second row LtoR: Arches NP, Moab, UT. Horseshoe Bend, Page, AZ. Zion NP, Orderville, UT. Third row LtoR: Aurora Borealis, Boulder, CO. Mt. Ouray, Monarch Pass, CO. Stanford Memorial Church, Stanford, CA
+    A collection of pictures that I took from my recent outings. First row LtoR: Mt. Rainier, Pierce County, WA. Mt. Sanitas, Boulder, CO. Flatirons, Boulder, CO. Second row LtoR: Arches NP, Moab, UT. Horseshoe Bend, Page, AZ. Zion NP, Orderville, UT. Third row LtoR: Aurora Borealis, Boulder, CO. Mt. Ouray, Monarch Pass, CO. Mesa Verde NP, CO. Fourth row LtoR: Great Sand Dunes NP, Mosca, CO. Golde Gate Bridge, San Francisco, CA. Stanford Memorial Church, Stanford, CA
 </div>
 
 <hr>

@@ -6,13 +6,13 @@ subtitle: <strong>Comp-Sci Doctoral Student</strong> @ <a href="https://www.colo
 
 profile:
   align: right
-  image: profile-4.jpeg
+  image: profile-3.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <div align="center" style="font-size:14px;">
+    <div align="center" style="font-size:13px;">
     <tt> ckn [at] colorado.edu </tt> 
     </div>
-news: false  # includes a list of news items
+news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---

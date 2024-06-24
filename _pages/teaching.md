@@ -6,16 +6,21 @@ description: Materials for full term courses, short courses and tutorials that I
 nav: true
 nav_order: 5
 ---
+---
 
 ## University of Colorado Boulder
 
----
+* Graduate Part-Time Instructor [Fall 2023] : <a href="https://www.colorado.edu/cs/cspb-3104-algorithms">CSCI-3104: Algorithms</a> *[Best Gradute Part Time Instructor]*
+* Graduate Part-Time Instructor [Spring 2023] : <a href="https://www.colorado.edu/cs/cspb-3104-algorithms">CSCI-3104: Algorithms</a> *[Best Gradute Part Time Instructor]*
+* Graduate Part-Time Instructor [Fall 2022] : <a href="https://www.colorado.edu/cs/cspb-3104-algorithms">CSCI-3104: Algorithms</a> *[Best Gradute Part Time Instructor]*
+* Teaching Assistant [Summer 2022] : <a href="https://www.colorado.edu/cs/cspb-3104-algorithms">CSCI-3104: Algorithms</a> *[Outstanding Teaching Assistant Award]*
+* Teaching Assistant [Spring 2022] : <a href="https://www.colorado.edu/cs/cspb-3104-algorithms">CSCI-3104: Algorithms</a> *[Outstanding Teaching Assistant Award]*
 
-* Awarded the `Best Gradute Part Time Instructor (2022-2023)` by the Comp-Sci Department and Graduate School.
+Below is a sample lecture notes from one my lectures as a Graduate Part-Time Instructor. In this lecture I continue with Quicksort and its modifications (introduced in the previous lecture) to undergraduates students. We end the lecture by working through a proof that shows Randomized Quicksort algorithm always leads to $$O(nlog_e n)$$ runtime, where $$n \in \mathbb{N}$$ is the size of the array/list.
+{% pdf "/assets/pdf/Lecture_15.pdf" no_link width=100% height=800px %}
 
-* Was also recognized as the `Best Performing TA (2021-2022)`.
 
-<div class="card mt-3">
+<!-- <div class="card mt-3">
   <div class="p-3">
     <div class="row">
       <div class="col-sm-10">
@@ -30,10 +35,10 @@ nav_order: 5
             <div class="col-sm-9">
                 240 undergraduate students
             </div>
-            <!-- <div class="col-sm-3">
+            <div class="col-sm-3">
                 <a href="https://www.cs.cmu.edu/~epxing/Class/10708-20/lectures/lecture19-RL1.pdf" target="_blank" rel="noopener noreferrer">slides</a>&nbsp;
                 <a href="https://www.cs.cmu.edu/~epxing/Class/10708-20/scribe/lec19_scribe.pdf" target="_blank" rel="noopener noreferrer">notes</a>&nbsp;
-            </div> -->
+            </div>
             </div>
         </li>
         </ul>
@@ -56,10 +61,10 @@ nav_order: 5
             <div class="col-sm-9">
                 145 undergraduate students, taught along with <a href="https://www.colorado.edu/biofrontiers/ryan-layer"> Dr. Ryan Layer </a>
             </div>
-            <!-- <div class="col-sm-3">
+            <div class="col-sm-3">
                 <a href="https://www.cs.cmu.edu/~epxing/Class/10708-20/lectures/lecture19-RL1.pdf" target="_blank" rel="noopener noreferrer">slides</a>&nbsp;
                 <a href="https://www.cs.cmu.edu/~epxing/Class/10708-20/scribe/lec19_scribe.pdf" target="_blank" rel="noopener noreferrer">notes</a>&nbsp;
-            </div> -->
+            </div>
             </div>
         </li>
         </ul>
@@ -82,10 +87,10 @@ nav_order: 5
             <div class="col-sm-9">
                 140 undergraduate students, taught along with <a href="https://home.cs.colorado.edu/~jgrochow/index.html"> Dr. Joshua Grochow </a>
             </div>
-            <!-- <div class="col-sm-3">
+            <div class="col-sm-3">
                 <a href="https://www.cs.cmu.edu/~epxing/Class/10708-20/lectures/lecture19-RL1.pdf" target="_blank" rel="noopener noreferrer">slides</a>&nbsp;
                 <a href="https://www.cs.cmu.edu/~epxing/Class/10708-20/scribe/lec19_scribe.pdf" target="_blank" rel="noopener noreferrer">notes</a>&nbsp;
-            </div> -->
+            </div>
             </div>
         </li>
         </ul>
@@ -141,7 +146,10 @@ nav_order: 5
         </ul>
     </div>
   </div>
-</div>
+</div> -->
+
+<br>
+If you need more such lecture notes on concepts in Algorithms, feel free to email me!
 
 ---
 
