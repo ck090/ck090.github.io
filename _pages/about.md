@@ -6,7 +6,7 @@ subtitle: <strong>Comp-Sci Doctoral Student</strong> @ <a href="https://www.colo
 
 profile:
   align: right
-  image: profile-3.jpg
+  image: CK-Img.png
   image_circular: false # crops the image to make it circular
   address: >
     <div align="center" style="font-size:13px;">
