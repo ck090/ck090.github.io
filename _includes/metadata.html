@@ -179,6 +179,10 @@
         {%- capture link -%}https://discord.com/users/{{ site.discord_id }}{%- endcapture -%}
         {%- assign sameaslinks = sameaslinks | push: link -%}
     {%- endif -%}
+    {%- if site.strava_id -%}
+        {%- capture link -%}https://strava.com/athletes/{{ site.strava_id }}{%- endcapture -%}
+        {%- assign sameaslinks = sameaslinks | push: link -%}
+    {%- endif -%}
     {%- if sameaslinks != blank -%}
         {%- assign sameaslinks = sameaslinks | split: "" -%}
     {%- endif -%}
