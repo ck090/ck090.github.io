@@ -21,7 +21,7 @@ Hi there, thanks for stopping by! 👋
 
 I am currently pursuing a Ph.D. in Computer Science at CU Boulder advised by <a href="https://home.cs.colorado.edu/~srirams/">Dr. Sriram Sankaranarayanan</a> as part of the Programming Languages and Verification (<a href="https://plv.colorado.edu/">CUPLV</a>) lab.
 
-My research interests are in the intersection of `Theoretical Machine Learning` and `Dynamical Systems`. I am generally fascinated about building models that can learn complex dynamical systems using machine learning or deep learning techniques. Currently, I am curious about modelling the behaviour of glucose CGM levels on a person with Type-1 diabetes in the presence of factors such as food consumption, and exercise.
+My research interests are in the intersection of `Theoretical Machine Learning` and `Dynamical Systems`. I am generally fascinated about building models that can learn complex dynamical systems using machine learning or deep learning techniques. Currently, one of my main goals is to get models to learn physical systems governed by ODEs such as Damped Oscillator, Pendulum, Lotka-Volterra on a small scale.
 
 During my Master's thesis, I worked on developing a dataset, and benchmarking current SOTA models in salient object detection (SOD) especially for people who are visually impaired. Advised by <a href="https://home.cs.colorado.edu/~DrG">Dr. Danna Gurari</a>. 
 
