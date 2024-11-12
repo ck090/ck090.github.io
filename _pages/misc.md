@@ -1,20 +1,19 @@
 ---
-layout: post
+layout: page
 permalink: /misc/
 title: misc
-description: A collection of fun stuff
+description: Below is my ever increasing collection of items, that I would like to share with everyone. I am also grateful for all the authors of online courses/materials that I share below. 
 nav: true
 nav_order: 6
 ---
 
-Below is my ever increasing collection of items, that I would like to share with everyone. I am also grateful for all the authors of online courses/materials that I share below. 
 
-<hr>
+<!-- <hr>
 
 <ul class="no-toc" id="markdown_toc">
     <li><a href="#photos" id="some-photos">Some photos</a></li>
     <!-- <li><a href="#latex" id="latex-guide">LaTeX</a></li> -->
-</ul>
+<!-- </ul>  -->
 
 <hr>
 

@@ -16,8 +16,27 @@ nav_order: 5
 * Teaching Assistant [Summer 2022] : <a href="https://www.colorado.edu/cs/cspb-3104-algorithms">CSCI-3104: Algorithms</a> *[Outstanding Teaching Assistant Award]*
 * Teaching Assistant [Spring 2022] : <a href="https://www.colorado.edu/cs/cspb-3104-algorithms">CSCI-3104: Algorithms</a> *[Outstanding Teaching Assistant Award]*
 
-Below is a sample lecture notes from one my lectures as a Graduate Part-Time Instructor. In this lecture I continue with Quicksort and its modifications (introduced in the previous lecture) to undergraduates students. We end the lecture by working through a proof that shows Randomized Quicksort algorithm always leads to $$O(nlog_e n)$$ runtime, where $$n \in \mathbb{N}$$ is the size of the array/list.
+Below is a sample lecture notes from one my lectures as a Graduate Part-Time Instructor. In this lecture I continue with Quicksort and its modifications (introduced in the previous lecture) to undergraduates students. We end the lecture by working through a proof that shows Randomized Quicksort algorithm always leads to $$O(nlog_e n)$$ runtime, where $$n \in \mathbb{N}$$ is the size of the array/list
 {% pdf "/assets/pdf/Lecture_15.pdf" no_link width=100% height=800px %}
+
+<br>
+If you need more such lecture notes on concepts in Algorithms, feel free to email me!
+
+
+---
+
+## YouTube 
+
+In my free time I seek to create educational content on YouTube. Below is my first video on "Dijkstra's Shortest Path Algorithm". Using <a href="https://www.manim.community/">Manim</a>, an animation engine developed by Grant Sanderson of <a href="https://www.3blue1brown.com/">3Blue1Brown</a>, I seek to make beautiful and clear visualizations of concepts in algorithms. 
+<p align="center"><iframe width="687" height="380" src="https://www.youtube.com/embed/eJOgNMHFkxI" title="Dijkstra&#39;s Algorithm - A visualized explanation!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+
+I plan on creating more such content in the future.
+
+
+---
+
+* (upcoming... A Comphrensive Guide for Algorithms)
+
 
 
 <!-- <div class="card mt-3">
@@ -147,10 +166,3 @@ Below is a sample lecture notes from one my lectures as a Graduate Part-Time Ins
     </div>
   </div>
 </div> -->
-
-<br>
-If you need more such lecture notes on concepts in Algorithms, feel free to email me!
-
----
-
-* (upcoming... A Comphrensive Guide for Algorithms)
