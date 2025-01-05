@@ -63,7 +63,7 @@ nav_order: 6
     </div>
 </div>
 <div class="caption">
-    A collection of pictures that I took from my recent outings. First row LtoR: Mt. Rainier, Pierce County, WA. Mt. Sanitas, Boulder, CO. Flatirons, Boulder, CO. Second row LtoR: Arches NP, Moab, UT. Horseshoe Bend, Page, AZ. Zion NP, Orderville, UT. Third row LtoR: Aurora Borealis, Boulder, CO. Mt. Ouray, Monarch Pass, CO. Mesa Verde NP, CO. Fourth row LtoR: Great Sand Dunes NP, Mosca, CO. Golde Gate Bridge, San Francisco, CA. Stanford Memorial Church, Stanford, CA
+    A collection of pictures that I took from my recent outings. <br> First row LtoR: Mt. Rainier, Pierce County, WA. Overlooking Flatirons from Mt. Sanitas, Boulder, CO. Flatirons, Boulder, CO. Second row LtoR: Arches NP, Moab, UT. Horseshoe Bend, Page, AZ. Zion NP, Orderville, UT. Third row LtoR: Aurora Borealis, Boulder, CO. Mt. Ouray, Monarch Pass, CO. Mesa Verde NP, CO. Fourth row LtoR: Great Sand Dunes NP, Mosca, CO. Golde Gate Bridge, San Francisco, CA. Stanford Memorial Church, Stanford, CA
 </div>
 
 <hr>
