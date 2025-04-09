@@ -20,6 +20,7 @@ group :jekyll_plugins do
     gem 'jekyll-include-cache'
     gem 'jekyll-target-blank'
     gem 'webrick'
+    gem 'observer'
 end
 group :other_plugins do
     gem 'feedjira'
