@@ -7,13 +7,17 @@ nav: true
 nav_order: 6
 ---
 
-
 <!-- <hr>
 
 <ul class="no-toc" id="markdown_toc">
     <li><a href="#photos" id="some-photos">Some photos</a></li>
     <!-- <li><a href="#latex" id="latex-guide">LaTeX</a></li> -->
 <!-- </ul>  -->
+
+<hr>
+
+<h2> Strava weekly stats <br>
+<iframe height='160' width='500' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/141477766/activity-summary/e1f5ae4128e2a3b327a3298c4376c8af2e0aea59'></iframe>
 
 <hr>
 

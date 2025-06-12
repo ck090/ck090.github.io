@@ -27,8 +27,13 @@ If you need more such lecture notes on concepts in Algorithms, feel free to emai
 
 ## YouTube 
 
-In my free time I seek to create educational content on YouTube. Below is my first video on "Dijkstra's Shortest Path Algorithm". Using <a href="https://www.manim.community/">Manim</a>, an animation engine developed by Grant Sanderson of <a href="https://www.3blue1brown.com/">3Blue1Brown</a>, I seek to make beautiful and clear visualizations of concepts in algorithms. 
+In my free time I seek to create educational content on YouTube. Using <a href="https://www.manim.community/">Manim</a>, an animation engine developed by Grant Sanderson of <a href="https://www.3blue1brown.com/">3Blue1Brown</a>, I seek to make beautiful and clear visualizations of concepts in computer science especially on Data Structures and Algorithms. 
+
+* *Dijkstra's Shortest Path Algorithm*
 <p align="center"><iframe width="687" height="380" src="https://www.youtube.com/embed/eJOgNMHFkxI" title="Dijkstra&#39;s Algorithm - A visualized explanation!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+
+* *Ford-Fulkerson Algorithm*
+<p align="center"><iframe width="687" height="380" src="https://www.youtube.com/embed/FAXunSp5Oto" title="Ford-Fulkerson Algorithm - A visualized explanation!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
 
 I plan on creating more such content in the future.
 
