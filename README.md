@@ -1,8 +1,7 @@
 # al-folio
 
 '''
-bundle install
-bundle exec jekyll serve
+bundle install && bundle exec jekyll serve
 
 bin/deploy --user
 '''
