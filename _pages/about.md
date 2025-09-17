@@ -27,6 +27,6 @@ My research interests are in the intersection of `Theoretical Machine Learning` 
 
 Prior to my master’s, I worked close to 4 years in the industry, where I developed products in the domain of algorithms, computer vision, and reinforcement learning. I recieved my undergraduate degree in Computer Science from <a href="https://www.rvce.edu.in/">RV College of Engineering, Bangalore</a>.
 
-In my spare time, I love to bike (<a href="https://www.strava.com/athletes/141477766">Strava</a>) and watch football (<a href="https://www.reddit.com/r/coys/comments/2ilw6e/what_with_it_in_arsenal_fans_saying_coyg/">#COYG</a>). I am originally from <a href="https://www.britannica.com/place/Bangalore-India">Bengaluru, Karnataka, India</a>, currently living in <a href="https://bouldercolorado.gov/">Boulder, Colorado, USA</a>.
+In my spare time, I love to bike (<a href="https://www.strava.com/athletes/141477766">Strava</a>) and watch football. I am originally from Bengaluru, Karnataka, India, currently living in Boulder, Colorado, USA.
 
 Checkout my PhD geneology tree <a href="https://ck090.github.io/gene">here</a>.
