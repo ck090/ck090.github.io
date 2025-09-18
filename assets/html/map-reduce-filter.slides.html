@@ -130,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
     white-space: pre-wrap;
     word-wrap: break-word;
     overflow-wrap: break-word;
-    max-width: 100%;
+    max-width: 98%;
     overflow-x: hidden;
     font-size: medium;
 }
@@ -7641,16 +7641,15 @@ main {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-scala"><pre><span></span><span class="c1">// The main function looks like this</span>
 
 <span class="k">def</span><span class="w"> </span><span class="nf">processList</span><span class="p">(</span><span class="n">lst</span><span class="p">:</span><span class="w"> </span><span class="nc">List</span><span class="p">[</span><span class="nc">Int</span><span class="p">]):</span><span class="w"> </span><span class="nc">Int</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="c1">// Multiply by two</span>
-<span class="w">    </span><span class="kd">val</span><span class="w"> </span><span class="n">lst1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">removeEvenNumbers</span><span class="p">(</span><span class="n">lst</span><span class="p">)</span>
-<span class="w">    </span><span class="kd">val</span><span class="w"> </span><span class="n">lst2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">multiplyEachEltByTwo</span><span class="p">(</span><span class="n">lst1</span><span class="p">)</span>
-<span class="w">    </span><span class="n">sumOfList</span><span class="p">(</span><span class="n">lst2</span><span class="p">)</span>
+<span class="w">    </span><span class="kd">val</span><span class="w"> </span><span class="n">intermediateList</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">removeEvenNumbers</span><span class="p">(</span><span class="n">lst</span><span class="p">)</span>
+<span class="w">    </span><span class="kd">val</span><span class="w"> </span><span class="n">intermediateList2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">multiplyEachEltByTwo</span><span class="p">(</span><span class="n">intermediateList</span><span class="p">)</span>
+<span class="w">    </span><span class="n">sumOfList</span><span class="p">(</span><span class="n">intermediateList2</span><span class="p">)</span>
 <span class="p">}</span>
 </pre></div>
 </div>
@@ -7662,7 +7661,7 @@ main {
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[4]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[6]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>defined <span class="ansi-green-fg">function</span> <span class="ansi-cyan-fg">processList</span></pre>
 </div>
@@ -7674,12 +7673,13 @@ main {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-scala"><pre><span></span><span class="n">removeEvenNumbers</span><span class="p">(</span><span class="nc">List</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">8</span><span class="p">))</span>
 <span class="n">multiplyEachEltByTwo</span><span class="p">(</span><span class="nc">List</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">))</span>
 <span class="n">sumOfList</span><span class="w"> </span><span class="p">((</span><span class="mi">1</span><span class="w"> </span><span class="n">to</span><span class="w"> </span><span class="mi">100</span><span class="p">).</span><span class="n">toList</span><span class="p">)</span>
+
 <span class="n">processList</span><span class="p">((</span><span class="mi">1</span><span class="w"> </span><span class="n">to</span><span class="w"> </span><span class="mi">20</span><span class="p">).</span><span class="n">toList</span><span class="p">)</span>
 </pre></div>
 </div>
@@ -7691,12 +7691,12 @@ main {
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[5]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[7]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre><span class="ansi-cyan-fg">res5_0</span>: <span class="ansi-green-fg">List</span>[<span class="ansi-green-fg">Int</span>] = <span class="ansi-yellow-fg">List</span>(<span class="ansi-green-fg">1</span>, <span class="ansi-green-fg">3</span>, <span class="ansi-green-fg">5</span>, <span class="ansi-green-fg">7</span>)
-<span class="ansi-cyan-fg">res5_1</span>: <span class="ansi-green-fg">List</span>[<span class="ansi-green-fg">Int</span>] = <span class="ansi-yellow-fg">List</span>(<span class="ansi-green-fg">2</span>, <span class="ansi-green-fg">4</span>, <span class="ansi-green-fg">6</span>, <span class="ansi-green-fg">8</span>)
-<span class="ansi-cyan-fg">res5_2</span>: <span class="ansi-green-fg">Int</span> = <span class="ansi-green-fg">5050</span>
-<span class="ansi-cyan-fg">res5_3</span>: <span class="ansi-green-fg">Int</span> = <span class="ansi-green-fg">200</span></pre>
+<pre><span class="ansi-cyan-fg">res7_0</span>: <span class="ansi-green-fg">List</span>[<span class="ansi-green-fg">Int</span>] = <span class="ansi-yellow-fg">List</span>(<span class="ansi-green-fg">1</span>, <span class="ansi-green-fg">3</span>, <span class="ansi-green-fg">5</span>, <span class="ansi-green-fg">7</span>)
+<span class="ansi-cyan-fg">res7_1</span>: <span class="ansi-green-fg">List</span>[<span class="ansi-green-fg">Int</span>] = <span class="ansi-yellow-fg">List</span>(<span class="ansi-green-fg">2</span>, <span class="ansi-green-fg">4</span>, <span class="ansi-green-fg">6</span>, <span class="ansi-green-fg">8</span>)
+<span class="ansi-cyan-fg">res7_2</span>: <span class="ansi-green-fg">Int</span> = <span class="ansi-green-fg">5050</span>
+<span class="ansi-cyan-fg">res7_3</span>: <span class="ansi-green-fg">Int</span> = <span class="ansi-green-fg">200</span></pre>
 </div>
 </div>
 </div>
@@ -7736,7 +7736,7 @@ Often it is cumbersome to define functions by name where we would like to pass a
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-scala"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">multiplyByTwo</span><span class="p">(</span><span class="n">x</span><span class="p">:</span><span class="w"> </span><span class="nc">Int</span><span class="p">):</span><span class="w"> </span><span class="nc">Int</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mi">2</span>
@@ -7750,7 +7750,7 @@ Often it is cumbersome to define functions by name where we would like to pass a
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[6]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[8]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>defined <span class="ansi-green-fg">function</span> <span class="ansi-cyan-fg">multiplyByTwo</span></pre>
 </div>
@@ -7762,7 +7762,7 @@ Often it is cumbersome to define functions by name where we would like to pass a
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-scala"><pre><span></span><span class="c1">// Here is two other ways to write the same thing</span>
@@ -7778,9 +7778,9 @@ Often it is cumbersome to define functions by name where we would like to pass a
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[7]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[9]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre><span class="ansi-cyan-fg">f</span>: <span class="ansi-green-fg">Int</span> =&gt; <span class="ansi-green-fg">Int</span> = ammonite.$sess.cmd7$Helper$$Lambda$3062/0x0000000801548f10@9079ae7</pre>
+<pre><span class="ansi-cyan-fg">f</span>: <span class="ansi-green-fg">Int</span> =&gt; <span class="ansi-green-fg">Int</span> = ammonite.$sess.cmd9$Helper$$Lambda$3151/0x0000000801565830@3d3886ab</pre>
 </div>
 </div>
 </div>
@@ -7790,7 +7790,7 @@ Often it is cumbersome to define functions by name where we would like to pass a
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-scala"><pre><span></span><span class="kd">val</span><span class="w"> </span><span class="n">f2</span><span class="p">:</span><span class="w"> </span><span class="nc">Int</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="nc">Int</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">_</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mi">2</span>
@@ -7807,9 +7807,9 @@ Often it is cumbersome to define functions by name where we would like to pass a
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[8]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[10]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre><span class="ansi-cyan-fg">f2</span>: <span class="ansi-green-fg">Int</span> =&gt; <span class="ansi-green-fg">Int</span> = ammonite.$sess.cmd8$Helper$$Lambda$3068/0x0000000801549be0@2906f4e9</pre>
+<pre><span class="ansi-cyan-fg">f2</span>: <span class="ansi-green-fg">Int</span> =&gt; <span class="ansi-green-fg">Int</span> = ammonite.$sess.cmd10$Helper$$Lambda$3157/0x000000080156a628@5ce9a0f4</pre>
 </div>
 </div>
 </div>
@@ -7848,7 +7848,7 @@ Often it is cumbersome to define functions by name where we would like to pass a
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-scala"><pre><span></span><span class="c1">// Here is another succint version:</span>
@@ -7865,9 +7865,9 @@ Often it is cumbersome to define functions by name where we would like to pass a
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[2]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[11]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre><span class="ansi-cyan-fg">g</span>: <span class="ansi-green-fg">String</span> =&gt; <span class="ansi-green-fg">String</span> = ammonite.$sess.cmd2$Helper$$Lambda$3005/0x0000000801534208@39c95cdb</pre>
+<pre><span class="ansi-cyan-fg">g</span>: <span class="ansi-green-fg">String</span> =&gt; <span class="ansi-green-fg">String</span> = ammonite.$sess.cmd11$Helper$$Lambda$3165/0x000000080156b2f8@4264c1dd</pre>
 </div>
 </div>
 </div>
@@ -7893,7 +7893,7 @@ Often it is cumbersome to define functions by name where we would like to pass a
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
 <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[12]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre><span class="ansi-cyan-fg">g</span>: <span class="ansi-green-fg">String</span> =&gt; <span class="ansi-green-fg">String</span> = ammonite.$sess.cmd12$Helper$$Lambda$3179/0x0000000801589208@1b77cc96</pre>
+<pre><span class="ansi-cyan-fg">g</span>: <span class="ansi-green-fg">String</span> =&gt; <span class="ansi-green-fg">String</span> = ammonite.$sess.cmd12$Helper$$Lambda$3167/0x0000000801574000@733830b6</pre>
 </div>
 </div>
 </div>
@@ -7903,7 +7903,7 @@ Often it is cumbersome to define functions by name where we would like to pass a
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [13]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-scala"><pre><span></span><span class="kd">val</span><span class="w"> </span><span class="n">g2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="c1">// BAD: Scala has no way of knowing what x is. It can be a String, Int, Double, ...</span>
@@ -7962,7 +7962,7 @@ Compilation Failed</pre>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
 <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[13]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre><span class="ansi-cyan-fg">addFun</span>: (<span class="ansi-green-fg">Int</span>, <span class="ansi-green-fg">Int</span>) =&gt; <span class="ansi-green-fg">Int</span> = ammonite.$sess.cmd13$Helper$$Lambda$3332/0x00000008015c5800@66ecd88c</pre>
+<pre><span class="ansi-cyan-fg">addFun</span>: (<span class="ansi-green-fg">Int</span>, <span class="ansi-green-fg">Int</span>) =&gt; <span class="ansi-green-fg">Int</span> = ammonite.$sess.cmd13$Helper$$Lambda$3266/0x0000000801574cb0@27b23138</pre>
 </div>
 </div>
 </div>
@@ -7988,7 +7988,7 @@ Compilation Failed</pre>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
 <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[14]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre><span class="ansi-cyan-fg">addFun</span>: ((<span class="ansi-green-fg">Int</span>, <span class="ansi-green-fg">Int</span>)) =&gt; <span class="ansi-green-fg">Int</span> = ammonite.$sess.cmd14$Helper$$Lambda$3342/0x00000008015cc418@54a73668</pre>
+<pre><span class="ansi-cyan-fg">addFun</span>: ((<span class="ansi-green-fg">Int</span>, <span class="ansi-green-fg">Int</span>)) =&gt; <span class="ansi-green-fg">Int</span> = ammonite.$sess.cmd14$Helper$$Lambda$3279/0x0000000801575b60@24dc858c</pre>
 </div>
 </div>
 </div>
@@ -8014,7 +8014,7 @@ Compilation Failed</pre>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
 <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[15]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre><span class="ansi-cyan-fg">addFun</span>: (<span class="ansi-green-fg">Int</span>, <span class="ansi-green-fg">Int</span>) =&gt; <span class="ansi-green-fg">Int</span> = ammonite.$sess.cmd15$Helper$$Lambda$3344/0x00000008015cd0c8@264aca57</pre>
+<pre><span class="ansi-cyan-fg">addFun</span>: (<span class="ansi-green-fg">Int</span>, <span class="ansi-green-fg">Int</span>) =&gt; <span class="ansi-green-fg">Int</span> = ammonite.$sess.cmd15$Helper$$Lambda$3281/0x0000000801576810@39078a9b</pre>
 </div>
 </div>
 </div>
@@ -8084,7 +8084,7 @@ defined <span class="ansi-green-fg">class</span> <span class="ansi-cyan-fg">MyCo
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
 <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[17]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre><span class="ansi-cyan-fg">anonIsEmptyFun</span>: <span class="ansi-green-fg">MyList</span> =&gt; <span class="ansi-green-fg">Boolean</span> = ammonite.$sess.cmd17$Helper$$Lambda$3462/0x00000008015ce9c8@79a367cb</pre>
+<pre><span class="ansi-cyan-fg">anonIsEmptyFun</span>: <span class="ansi-green-fg">MyList</span> =&gt; <span class="ansi-green-fg">Boolean</span> = ammonite.$sess.cmd17$Helper$$Lambda$3399/0x00000008015ca208@4272035a</pre>
 </div>
 </div>
 </div>
@@ -8113,7 +8113,7 @@ defined <span class="ansi-green-fg">class</span> <span class="ansi-cyan-fg">MyCo
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
 <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[18]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre><span class="ansi-cyan-fg">anonIsEmptyFun</span>: <span class="ansi-green-fg">MyList</span> =&gt; <span class="ansi-green-fg">Boolean</span> = ammonite.$sess.cmd18$Helper$$Lambda$3467/0x00000008015cf680@16b79cc7</pre>
+<pre><span class="ansi-cyan-fg">anonIsEmptyFun</span>: <span class="ansi-green-fg">MyList</span> =&gt; <span class="ansi-green-fg">Boolean</span> = ammonite.$sess.cmd18$Helper$$Lambda$3404/0x00000008015caec0@6ce23e45</pre>
 </div>
 </div>
 </div>
@@ -8184,11 +8184,9 @@ defined <span class="ansi-green-fg">class</span> <span class="ansi-cyan-fg">MyCo
 <div class="jp-InputPrompt jp-InputArea-prompt">In [19]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-scala"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">recursivelySquareEachElt</span><span class="p">(</span><span class="n">l</span><span class="p">:</span><span class="w"> </span><span class="nc">List</span><span class="p">[</span><span class="nc">Int</span><span class="p">],</span><span class="w"> </span><span class="n">acc</span><span class="p">:</span><span class="w"> </span><span class="nc">List</span><span class="p">[</span><span class="nc">Int</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nc">Nil</span><span class="p">):</span><span class="w"> </span><span class="nc">List</span><span class="p">[</span><span class="nc">Int</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">l</span><span class="p">.</span><span class="n">length</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="p">)</span>
-<span class="w">        </span><span class="n">acc</span><span class="p">.</span><span class="n">reverse</span>
-<span class="w">    </span><span class="k">else</span>
-<span class="w">        </span><span class="n">recursivelySquareEachElt</span><span class="p">(</span><span class="n">l</span><span class="p">.</span><span class="n">tail</span><span class="p">,</span><span class="w"> </span><span class="p">(</span><span class="n">l</span><span class="p">.</span><span class="n">head</span><span class="o">*</span><span class="n">l</span><span class="p">.</span><span class="n">head</span><span class="p">)</span><span class="n">::acc</span><span class="p">)</span>
+<div class="highlight hl-scala"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">recursivelySquareEachElt</span><span class="p">(</span><span class="n">l</span><span class="p">:</span><span class="w"> </span><span class="nc">List</span><span class="p">[</span><span class="nc">Int</span><span class="p">],</span><span class="w"> </span><span class="n">acc</span><span class="p">:</span><span class="w"> </span><span class="nc">List</span><span class="p">[</span><span class="nc">Int</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nc">Nil</span><span class="p">):</span><span class="w"> </span><span class="nc">List</span><span class="p">[</span><span class="nc">Int</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="n">l</span><span class="w"> </span><span class="k">match</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="nc">Nil</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="n">acc</span><span class="p">.</span><span class="n">reverse</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="n">hd::tail</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="n">recursivelySquareEachElt</span><span class="p">(</span><span class="n">tail</span><span class="p">,</span><span class="w"> </span><span class="p">(</span><span class="n">hd</span><span class="o">*</span><span class="n">hd</span><span class="p">)</span><span class="n">::acc</span><span class="p">)</span>
 <span class="p">}</span>
 </pre></div>
 </div>
@@ -8212,10 +8210,10 @@ defined <span class="ansi-green-fg">class</span> <span class="ansi-cyan-fg">MyCo
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [20]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [21]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-scala"><pre><span></span><span class="n">recursivelySquareEachElt</span><span class="p">(</span><span class="nc">List</span><span class="p">(</span><span class="mi">10</span><span class="p">))</span>
+<div class="highlight hl-scala"><pre><span></span><span class="n">recursivelySquareEachElt</span><span class="p">(</span><span class="nc">List</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="w"> </span><span class="o">-</span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="o">-</span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="mi">14</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="p">))</span>
 </pre></div>
 </div>
 </div>
@@ -8226,9 +8224,9 @@ defined <span class="ansi-green-fg">class</span> <span class="ansi-cyan-fg">MyCo
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[20]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[21]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre><span class="ansi-cyan-fg">res20</span>: <span class="ansi-green-fg">List</span>[<span class="ansi-green-fg">Int</span>] = <span class="ansi-yellow-fg">List</span>(<span class="ansi-green-fg">100</span>)</pre>
+<pre><span class="ansi-cyan-fg">res21</span>: <span class="ansi-green-fg">List</span>[<span class="ansi-green-fg">Int</span>] = <span class="ansi-yellow-fg">List</span>(<span class="ansi-green-fg">100</span>, <span class="ansi-green-fg">9</span>, <span class="ansi-green-fg">9</span>, <span class="ansi-green-fg">196</span>, <span class="ansi-green-fg">4</span>)</pre>
 </div>
 </div>
 </div>
@@ -8238,7 +8236,7 @@ defined <span class="ansi-green-fg">class</span> <span class="ansi-cyan-fg">MyCo
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [21]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [22]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-scala"><pre><span></span><span class="n">recursivelySquareEachElt</span><span class="p">(</span><span class="nc">List</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="mi">4</span><span class="p">,</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w"> </span><span class="mi">6</span><span class="p">,</span><span class="w"> </span><span class="mi">110</span><span class="p">,</span><span class="w"> </span><span class="mi">12</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="p">),</span><span class="w"> </span><span class="nc">Nil</span><span class="p">)</span>
@@ -8252,9 +8250,9 @@ defined <span class="ansi-green-fg">class</span> <span class="ansi-cyan-fg">MyCo
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[21]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[22]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre><span class="ansi-cyan-fg">res21</span>: <span class="ansi-green-fg">List</span>[<span class="ansi-green-fg">Int</span>] = <span class="ansi-yellow-fg">List</span>(<span class="ansi-green-fg">1</span>, <span class="ansi-green-fg">9</span>, <span class="ansi-green-fg">16</span>, <span class="ansi-green-fg">25</span>, <span class="ansi-green-fg">36</span>, <span class="ansi-green-fg">12100</span>, <span class="ansi-green-fg">144</span>, <span class="ansi-green-fg">4</span>)</pre>
+<pre><span class="ansi-cyan-fg">res22</span>: <span class="ansi-green-fg">List</span>[<span class="ansi-green-fg">Int</span>] = <span class="ansi-yellow-fg">List</span>(<span class="ansi-green-fg">1</span>, <span class="ansi-green-fg">9</span>, <span class="ansi-green-fg">16</span>, <span class="ansi-green-fg">25</span>, <span class="ansi-green-fg">36</span>, <span class="ansi-green-fg">12100</span>, <span class="ansi-green-fg">144</span>, <span class="ansi-green-fg">4</span>)</pre>
 </div>
 </div>
 </div>
@@ -8275,7 +8273,7 @@ defined <span class="ansi-green-fg">class</span> <span class="ansi-cyan-fg">MyCo
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [22]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [23]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-scala"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">squareEachElt</span><span class="p">(</span><span class="n">l</span><span class="p">:</span><span class="w"> </span><span class="nc">List</span><span class="p">[</span><span class="nc">Int</span><span class="p">]):</span><span class="w"> </span><span class="nc">List</span><span class="p">[</span><span class="nc">Int</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w">  </span><span class="n">l</span><span class="p">.</span><span class="n">map</span><span class="p">(</span><span class="w"> </span><span class="p">(</span><span class="n">x</span><span class="p">:</span><span class="w"> </span><span class="nc">Int</span><span class="p">)</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="n">x</span><span class="o">*</span><span class="n">x</span><span class="w"> </span><span class="p">)</span><span class="w"> </span>
@@ -8290,7 +8288,7 @@ defined <span class="ansi-green-fg">class</span> <span class="ansi-cyan-fg">MyCo
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[22]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[23]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>defined <span class="ansi-green-fg">function</span> <span class="ansi-cyan-fg">squareEachElt</span></pre>
 </div>
@@ -8302,7 +8300,7 @@ defined <span class="ansi-green-fg">class</span> <span class="ansi-cyan-fg">MyCo
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [23]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [24]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-scala"><pre><span></span><span class="n">squareEachElt</span><span class="p">(</span><span class="nc">List</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="mi">4</span><span class="p">,</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w"> </span><span class="mi">6</span><span class="p">,</span><span class="w"> </span><span class="mi">110</span><span class="p">,</span><span class="w"> </span><span class="mi">12</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="p">))</span>
@@ -8316,9 +8314,9 @@ defined <span class="ansi-green-fg">class</span> <span class="ansi-cyan-fg">MyCo
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[23]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[24]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre><span class="ansi-cyan-fg">res23</span>: <span class="ansi-green-fg">List</span>[<span class="ansi-green-fg">Int</span>] = <span class="ansi-yellow-fg">List</span>(<span class="ansi-green-fg">1</span>, <span class="ansi-green-fg">9</span>, <span class="ansi-green-fg">16</span>, <span class="ansi-green-fg">25</span>, <span class="ansi-green-fg">36</span>, <span class="ansi-green-fg">12100</span>, <span class="ansi-green-fg">144</span>, <span class="ansi-green-fg">4</span>)</pre>
+<pre><span class="ansi-cyan-fg">res24</span>: <span class="ansi-green-fg">List</span>[<span class="ansi-green-fg">Int</span>] = <span class="ansi-yellow-fg">List</span>(<span class="ansi-green-fg">1</span>, <span class="ansi-green-fg">9</span>, <span class="ansi-green-fg">16</span>, <span class="ansi-green-fg">25</span>, <span class="ansi-green-fg">36</span>, <span class="ansi-green-fg">12100</span>, <span class="ansi-green-fg">144</span>, <span class="ansi-green-fg">4</span>)</pre>
 </div>
 </div>
 </div>
@@ -8346,7 +8344,7 @@ of type <code>B</code>.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [24]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [25]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-scala"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">listMap</span><span class="p">[</span><span class="nc">A</span><span class="p">,</span><span class="nc">B</span><span class="p">](</span><span class="n">lst</span><span class="p">:</span><span class="w"> </span><span class="nc">List</span><span class="p">[</span><span class="nc">A</span><span class="p">],</span><span class="w"> </span><span class="n">fun</span><span class="p">:</span><span class="w"> </span><span class="nc">A</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="nc">B</span><span class="p">):</span><span class="w"> </span><span class="nc">List</span><span class="p">[</span><span class="nc">B</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">lst</span><span class="w"> </span><span class="k">match</span><span class="w"> </span><span class="p">{</span>
@@ -8363,7 +8361,7 @@ of type <code>B</code>.</p>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[24]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[25]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>defined <span class="ansi-green-fg">function</span> <span class="ansi-cyan-fg">listMap</span></pre>
 </div>
@@ -8375,7 +8373,7 @@ of type <code>B</code>.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [25]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [26]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-scala"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">sayHelloTo</span><span class="p">(</span><span class="n">l</span><span class="p">:</span><span class="w"> </span><span class="nc">List</span><span class="p">[</span><span class="nc">String</span><span class="p">]):</span><span class="w"> </span><span class="nc">List</span><span class="p">[</span><span class="nc">String</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">l</span><span class="p">.</span><span class="n">map</span><span class="p">(</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="p">(</span><span class="s">"Hello "</span><span class="o">+</span><span class="w"> </span><span class="n">x</span><span class="p">))</span><span class="w"> </span><span class="c1">// Type of x is inferred by Scala</span>
@@ -8389,7 +8387,7 @@ of type <code>B</code>.</p>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[25]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[26]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>defined <span class="ansi-green-fg">function</span> <span class="ansi-cyan-fg">sayHelloTo</span></pre>
 </div>
@@ -8401,7 +8399,7 @@ of type <code>B</code>.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [26]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [27]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-scala"><pre><span></span><span class="n">sayHelloTo</span><span class="p">(</span><span class="nc">List</span><span class="p">(</span><span class="s">"Cat"</span><span class="p">,</span><span class="w"> </span><span class="s">"Dog"</span><span class="p">,</span><span class="w"> </span><span class="s">"World"</span><span class="p">))</span>
@@ -8415,9 +8413,9 @@ of type <code>B</code>.</p>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[26]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[27]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre><span class="ansi-cyan-fg">res26</span>: <span class="ansi-green-fg">List</span>[<span class="ansi-green-fg">String</span>] = <span class="ansi-yellow-fg">List</span>(<span class="ansi-green-fg">"Hello Cat"</span>, <span class="ansi-green-fg">"Hello Dog"</span>, <span class="ansi-green-fg">"Hello World"</span>)</pre>
+<pre><span class="ansi-cyan-fg">res27</span>: <span class="ansi-green-fg">List</span>[<span class="ansi-green-fg">String</span>] = <span class="ansi-yellow-fg">List</span>(<span class="ansi-green-fg">"Hello Cat"</span>, <span class="ansi-green-fg">"Hello Dog"</span>, <span class="ansi-green-fg">"Hello World"</span>)</pre>
 </div>
 </div>
 </div>
@@ -8440,43 +8438,15 @@ of type <code>B</code>.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [27]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [28]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-scala"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">retainAllMultiplesOfThree</span><span class="p">(</span><span class="n">l</span><span class="p">:</span><span class="w"> </span><span class="nc">List</span><span class="p">[</span><span class="nc">Int</span><span class="p">],</span><span class="w"> </span><span class="n">acc</span><span class="p">:</span><span class="w"> </span><span class="nc">List</span><span class="p">[</span><span class="nc">Int</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nc">Nil</span><span class="p">):</span><span class="w"> </span><span class="nc">List</span><span class="p">[</span><span class="nc">Int</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">l</span><span class="w"> </span><span class="k">match</span><span class="w"> </span><span class="p">{</span>
 <span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="nc">Nil</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="n">acc</span>
 <span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="n">hd</span><span class="w"> </span><span class="o">::</span><span class="w"> </span><span class="n">tail</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="kd">val</span><span class="w"> </span><span class="n">newAcc</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">hd</span><span class="w"> </span><span class="o">%</span><span class="w"> </span><span class="mi">3</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="n">acc</span><span class="w"> </span><span class="o">++</span><span class="w"> </span><span class="nc">List</span><span class="p">(</span><span class="n">hd</span><span class="p">)}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="n">acc</span><span class="w"> </span><span class="p">}</span>
+<span class="w">        </span><span class="kd">val</span><span class="w"> </span><span class="n">newAcc</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">hd</span><span class="w"> </span><span class="o">%</span><span class="w"> </span><span class="mi">3</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="n">acc</span><span class="w"> </span><span class="o">++</span><span class="w"> </span><span class="nc">List</span><span class="p">(</span><span class="n">hd</span><span class="p">)</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="n">acc</span><span class="w"> </span><span class="p">}</span>
 <span class="w">        </span><span class="n">retainAllMultiplesOfThree</span><span class="p">(</span><span class="n">tail</span><span class="p">,</span><span class="w"> </span><span class="n">newAcc</span><span class="p">)</span>
 <span class="w">    </span><span class="p">}</span>
-<span class="p">}</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[27]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>defined <span class="ansi-green-fg">function</span> <span class="ansi-cyan-fg">retainAllMultiplesOfThree</span></pre>
-</div>
-</div>
-</div>
-</div>
-</div></section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [28]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-scala"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">retainAllMultiplesOfThree</span><span class="p">(</span><span class="n">l</span><span class="p">:</span><span class="w"> </span><span class="nc">List</span><span class="p">[</span><span class="nc">Int</span><span class="p">]):</span><span class="w"> </span><span class="nc">List</span><span class="p">[</span><span class="nc">Int</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="n">l</span><span class="p">.</span><span class="n">filter</span><span class="p">(</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="n">x</span><span class="o">%</span><span class="mi">3</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="p">)</span>
 <span class="p">}</span>
 </pre></div>
 </div>
@@ -8495,12 +8465,40 @@ of type <code>B</code>.</p>
 </div>
 </div>
 </div>
-</div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div></section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
 <div class="jp-InputPrompt jp-InputArea-prompt">In [29]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-scala"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">retainAllMultiplesOfThree</span><span class="p">(</span><span class="n">l</span><span class="p">:</span><span class="w"> </span><span class="nc">List</span><span class="p">[</span><span class="nc">Int</span><span class="p">]):</span><span class="w"> </span><span class="nc">List</span><span class="p">[</span><span class="nc">Int</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">l</span><span class="p">.</span><span class="n">filter</span><span class="p">(</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="n">x</span><span class="o">%</span><span class="mi">3</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="p">)</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[29]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>defined <span class="ansi-green-fg">function</span> <span class="ansi-cyan-fg">retainAllMultiplesOfThree</span></pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [30]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-scala"><pre><span></span><span class="n">retainAllMultiplesOfThree</span><span class="p">(</span><span class="nc">List</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="w"> </span><span class="mi">15</span><span class="p">,</span><span class="w"> </span><span class="mi">18</span><span class="p">,</span><span class="w"> </span><span class="mi">12</span><span class="p">,</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w"> </span><span class="mi">7</span><span class="p">,</span><span class="w"> </span><span class="mi">8</span><span class="p">,</span><span class="w"> </span><span class="mi">14</span><span class="p">))</span>
@@ -8514,9 +8512,9 @@ of type <code>B</code>.</p>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[29]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[30]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre><span class="ansi-cyan-fg">res29</span>: <span class="ansi-green-fg">List</span>[<span class="ansi-green-fg">Int</span>] = <span class="ansi-yellow-fg">List</span>(<span class="ansi-green-fg">15</span>, <span class="ansi-green-fg">18</span>, <span class="ansi-green-fg">12</span>, <span class="ansi-green-fg">3</span>)</pre>
+<pre><span class="ansi-cyan-fg">res30</span>: <span class="ansi-green-fg">List</span>[<span class="ansi-green-fg">Int</span>] = <span class="ansi-yellow-fg">List</span>(<span class="ansi-green-fg">15</span>, <span class="ansi-green-fg">18</span>, <span class="ansi-green-fg">12</span>, <span class="ansi-green-fg">3</span>)</pre>
 </div>
 </div>
 </div>
@@ -8537,7 +8535,7 @@ of type <code>B</code>.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [30]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [31]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-scala"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">filterList</span><span class="p">[</span><span class="nc">A</span><span class="p">]</span><span class="w"> </span><span class="p">(</span><span class="n">lst</span><span class="p">:</span><span class="w"> </span><span class="nc">List</span><span class="p">[</span><span class="nc">A</span><span class="p">],</span><span class="w"> </span><span class="n">filterFun</span><span class="p">:</span><span class="w"> </span><span class="nc">A</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="nc">Boolean</span><span class="p">):</span><span class="w"> </span><span class="nc">List</span><span class="p">[</span><span class="nc">A</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">lst</span><span class="w"> </span><span class="k">match</span><span class="w"> </span><span class="p">{</span>
@@ -8562,7 +8560,7 @@ of type <code>B</code>.</p>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[30]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[31]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>defined <span class="ansi-green-fg">function</span> <span class="ansi-cyan-fg">filterList</span></pre>
 </div>
@@ -8576,8 +8574,8 @@ of type <code>B</code>.</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Fold-Operations">Fold Operations<a class="anchor-link" href="#Fold-Operations">¶</a></h2><p>Fold/reduce operations are useful to gather all data thus far during a computation. Take a list</p>
-<p>$ [l_1, l_2, \ldots, l_n] $</p>
+<h2 id="Fold-Operations">Fold Operations<a class="anchor-link" href="#Fold-Operations">¶</a></h2><p>Fold/reduce operations are useful to gather all data thus far during a computation. Take a list
+$ [l_1, l_2, \ldots, l_n] $</p>
 <p>We wish to sum up the numbers in the list.
 This is achieved in a loop with accumulator.</p>
 <pre><code>acc = 0
@@ -8595,7 +8593,7 @@ return acc
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [32]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-scala"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">recSumOfList</span><span class="p">(</span><span class="n">lst</span><span class="p">:</span><span class="w"> </span><span class="nc">List</span><span class="p">[</span><span class="nc">Int</span><span class="p">],</span><span class="w"> </span><span class="n">sum</span><span class="p">:</span><span class="w"> </span><span class="nc">Int</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">):</span><span class="w"> </span><span class="nc">Int</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">lst</span><span class="w"> </span><span class="k">match</span><span class="w"> </span><span class="p">{</span>
@@ -8612,7 +8610,7 @@ return acc
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[1]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[32]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>defined <span class="ansi-green-fg">function</span> <span class="ansi-cyan-fg">recSumOfList</span></pre>
 </div>
@@ -8685,7 +8683,7 @@ in scala called  <strong>curried syntax</strong></p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [32]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [33]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-scala"><pre><span></span><span class="c1">// Fold left with initial value of accumulator = 0</span>
@@ -8702,7 +8700,7 @@ in scala called  <strong>curried syntax</strong></p>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[32]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[33]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>defined <span class="ansi-green-fg">function</span> <span class="ansi-cyan-fg">sumList</span></pre>
 </div>
@@ -8714,7 +8712,7 @@ in scala called  <strong>curried syntax</strong></p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [33]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [34]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-scala"><pre><span></span><span class="n">sumList</span><span class="p">(</span><span class="nc">List</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w"> </span><span class="mi">6</span><span class="p">,</span><span class="w"> </span><span class="mi">7</span><span class="p">,</span><span class="w"> </span><span class="mi">8</span><span class="p">,</span><span class="w"> </span><span class="mi">9</span><span class="p">,</span><span class="w"> </span><span class="mi">10</span><span class="p">))</span>
@@ -8728,9 +8726,9 @@ in scala called  <strong>curried syntax</strong></p>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[33]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[34]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre><span class="ansi-cyan-fg">res33</span>: <span class="ansi-green-fg">Int</span> = <span class="ansi-green-fg">55</span></pre>
+<pre><span class="ansi-cyan-fg">res34</span>: <span class="ansi-green-fg">Int</span> = <span class="ansi-green-fg">55</span></pre>
 </div>
 </div>
 </div>
@@ -8740,7 +8738,7 @@ in scala called  <strong>curried syntax</strong></p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [34]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [35]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-scala"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">sumFromRight</span><span class="p">(</span><span class="n">l</span><span class="p">:</span><span class="w"> </span><span class="nc">List</span><span class="p">[</span><span class="nc">Int</span><span class="p">])</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="nc">Int</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">l</span><span class="p">.</span><span class="n">foldRight</span><span class="w"> </span><span class="p">(</span><span class="mi">0</span><span class="p">)</span><span class="w"> </span><span class="p">((</span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="n">acc</span><span class="p">)</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">acc</span><span class="p">)</span>
@@ -8754,7 +8752,7 @@ in scala called  <strong>curried syntax</strong></p>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[34]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[35]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>defined <span class="ansi-green-fg">function</span> <span class="ansi-cyan-fg">sumFromRight</span></pre>
 </div>
@@ -8766,7 +8764,33 @@ in scala called  <strong>curried syntax</strong></p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [35]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [36]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-scala"><pre><span></span><span class="n">sumFromRight</span><span class="p">((</span><span class="mi">1</span><span class="w"> </span><span class="n">to</span><span class="w"> </span><span class="mi">10</span><span class="p">).</span><span class="n">toList</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[36]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre><span class="ansi-cyan-fg">res36</span>: <span class="ansi-green-fg">Int</span> = <span class="ansi-green-fg">55</span></pre>
+</div>
+</div>
+</div>
+</div>
+</div></div></section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [37]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-scala"><pre><span></span><span class="c1">// Let us now write a function `reverseList`</span>
@@ -8785,14 +8809,14 @@ in scala called  <strong>curried syntax</strong></p>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[35]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[37]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>defined <span class="ansi-green-fg">function</span> <span class="ansi-cyan-fg">reverseList</span></pre>
 </div>
 </div>
 </div>
 </div>
-</div></div></section><section>
+</div><div class="fragment">
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -8803,12 +8827,12 @@ in scala called  <strong>curried syntax</strong></p>
 </div>
 </div>
 </div>
-</div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div></div></section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [36]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [38]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-scala"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">reverseList</span><span class="p">(</span><span class="n">l</span><span class="p">:</span><span class="w"> </span><span class="nc">List</span><span class="p">[</span><span class="nc">Int</span><span class="p">]):</span><span class="w"> </span><span class="nc">List</span><span class="p">[</span><span class="nc">Int</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">l</span><span class="p">.</span><span class="n">foldLeft</span><span class="p">[</span><span class="nc">List</span><span class="p">[</span><span class="nc">Int</span><span class="p">]]</span><span class="w"> </span><span class="p">(</span><span class="nc">Nil</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
@@ -8824,9 +8848,157 @@ in scala called  <strong>curried syntax</strong></p>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[36]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[38]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>defined <span class="ansi-green-fg">function</span> <span class="ansi-cyan-fg">reverseList</span></pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [27]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-scala"><pre><span></span><span class="n">reverseList</span><span class="p">((</span><span class="mi">1</span><span class="w"> </span><span class="n">to</span><span class="w"> </span><span class="mi">10</span><span class="p">).</span><span class="n">toList</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[27]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre><span class="ansi-cyan-fg">res27</span>: <span class="ansi-green-fg">List</span>[<span class="ansi-green-fg">Int</span>] = <span class="ansi-yellow-fg">List</span>(<span class="ansi-green-fg">10</span>, <span class="ansi-green-fg">9</span>, <span class="ansi-green-fg">8</span>, <span class="ansi-green-fg">7</span>, <span class="ansi-green-fg">6</span>, <span class="ansi-green-fg">5</span>, <span class="ansi-green-fg">4</span>, <span class="ansi-green-fg">3</span>, <span class="ansi-green-fg">2</span>, <span class="ansi-green-fg">1</span>)</pre>
+</div>
+</div>
+</div>
+</div>
+</div></div></section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [39]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-scala"><pre><span></span><span class="c1">// Putting it all together, write a function that does all the above using map, reduce and filter operations only</span>
+
+<span class="k">def</span><span class="w"> </span><span class="nf">processList</span><span class="p">(</span><span class="n">lst</span><span class="p">:</span><span class="w"> </span><span class="nc">List</span><span class="p">[</span><span class="nc">Int</span><span class="p">]):</span><span class="w"> </span><span class="nc">Int</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">lst</span>
+<span class="w">        </span><span class="p">.</span><span class="n">filter</span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">%</span><span class="w"> </span><span class="mi">2</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="mi">0</span><span class="p">)</span>
+<span class="w">        </span><span class="p">.</span><span class="n">map</span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mi">2</span><span class="p">)</span><span class="w">       </span>
+<span class="w">        </span><span class="p">.</span><span class="n">foldLeft</span><span class="p">(</span><span class="mi">0</span><span class="p">)(</span><span class="n">_</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">_</span><span class="p">)</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[39]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>defined <span class="ansi-green-fg">function</span> <span class="ansi-cyan-fg">processList</span></pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [40]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-scala"><pre><span></span><span class="n">processList</span><span class="p">((</span><span class="mi">1</span><span class="w"> </span><span class="n">to</span><span class="w"> </span><span class="mi">20</span><span class="p">).</span><span class="n">toList</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[40]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre><span class="ansi-cyan-fg">res40</span>: <span class="ansi-green-fg">Int</span> = <span class="ansi-green-fg">200</span></pre>
+</div>
+</div>
+</div>
+</div>
+</div></div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h1 id="A-one-liner">A one-liner<a class="anchor-link" href="#A-one-liner">¶</a></h1>
+</div>
+</div>
+</div>
+</div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [44]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-scala"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">processList</span><span class="p">(</span><span class="n">l</span><span class="p">:</span><span class="w"> </span><span class="nc">List</span><span class="p">[</span><span class="nc">Int</span><span class="p">]):</span><span class="w"> </span><span class="nc">Int</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">l</span><span class="p">.</span><span class="n">filter</span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="n">x</span><span class="o">%</span><span class="mi">2</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="mi">0</span><span class="p">).</span><span class="n">map</span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="n">x</span><span class="o">*</span><span class="mi">2</span><span class="p">).</span><span class="n">foldLeft</span><span class="p">(</span><span class="mi">0</span><span class="p">)(</span><span class="n">_</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">_</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[44]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>defined <span class="ansi-green-fg">function</span> <span class="ansi-cyan-fg">processList</span></pre>
+</div>
+</div>
+</div>
+</div>
+</div></div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [45]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-scala"><pre><span></span><span class="n">processList</span><span class="p">((</span><span class="mi">1</span><span class="w"> </span><span class="n">to</span><span class="w"> </span><span class="mi">20</span><span class="p">).</span><span class="n">toList</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[45]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre><span class="ansi-cyan-fg">res45</span>: <span class="ansi-green-fg">Int</span> = <span class="ansi-green-fg">200</span></pre>
 </div>
 </div>
 </div>
