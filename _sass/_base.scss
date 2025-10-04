@@ -4,6 +4,10 @@
 
 // Typography
 
+body {
+    font-family: Computer Modern Sans,mastodon-font-sans-serif,sans-serif
+}
+
 .flow-container {
   display: flex;
   justify-content: center;
@@ -20,6 +24,22 @@
 .flow-arrow {
   width: 30px;
   height: 30px;
+}
+
+@font-face {
+    font-family: Computer Modern Sans;
+    src: url(/packs/assets/cmunss-Cb-zRmjs.eot);
+    src: url(/packs/assets/cmunss-Cb-zRmjs.eot?#iefix) format("embedded-opentype"),url(/assets/fonts/cmunss-BjaB-Km9.woff) format("woff"),url(/packs/assets/cmunss-DT0fM1uu.ttf) format("truetype"),url(/packs/assets/cmunss-Cw_Cs_jP.svg#cmunss) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Computer Modern Sans;
+    src: url(/packs/assets/cmunsx-CmOd6lZP.eot);
+    src: url(/packs/assets/cmunsx-CmOd6lZP.eot?#iefix) format("embedded-opentype"),url(/assets/fonts/cmunsx--Tq4Sim3.woff) format("woff"),url(/packs/assets/cmunsx-2JfRo6pj.ttf) format("truetype"),url(/packs/assets/cmunsx-DKtdf5-q.svg#cmunsx) format("svg");
+    font-weight: 700;
+    font-style: normal
 }
 
 .flow-image {
